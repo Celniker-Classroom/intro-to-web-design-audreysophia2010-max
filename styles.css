@@ -10,10 +10,10 @@ body {
 
 img {
     width: 50%;
-    display: block;
+    float: right;
     border-radius: 20px;
     border: 2px solid rgb(175, 175, 175);
-    margin: 20px auto;
+    margin: 20px;
 }
 
 h1 {
@@ -26,6 +26,7 @@ a {
   color: #0066cc;
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
