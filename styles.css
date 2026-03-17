@@ -16,7 +16,7 @@ body {
 }
 
 /* Header Styles */
-header {
+.header {
     margin-bottom: 30px;
     border-bottom: 2px solid #e0e0e0;
     padding-bottom: 15px;
