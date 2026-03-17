@@ -84,6 +84,18 @@ p {
     color: #555;
 }
 
+.color-change {
+  animation-name: color-change;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes color-change {
+  0% {color: #7fbfff;}
+  50% {color: #0e43d4;}
+  100% {color: #7fbfff}
+}
+
 @media (max-width: 1200px) {
   #container {
     max-width: 900px;
